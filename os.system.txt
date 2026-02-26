@@ -1,0 +1,2 @@
+O método os.system serve para dar um comando diretamente ao terminal do dispositivo.
+Exemplo: os.system("ifconfig") (para linux, isso irá retornar informações de rede.)
