@@ -1,0 +1,2 @@
+Este comando cria uma pasta. Só isso.
+Exemplo: os.mkdir('Pasta')

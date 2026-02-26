@@ -1,0 +1,2 @@
+Esse comando simplesmente troca o diretório de trabalho atual.
+Ex: os.chdir(diretório)

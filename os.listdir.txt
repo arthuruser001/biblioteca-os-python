@@ -1,0 +1,2 @@
+O os.listdir simplesmente lista todos os arquivos e pastasS dentro de um diretório que foi especificado.
+Exemplo: os.listidir(/workspaces/biblioteca-os-python)

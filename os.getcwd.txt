@@ -1,0 +1,2 @@
+Esse comando procura o diretório de trabalho atual e o converte em string.
+Resumindo: Ele pega onde o script tá rodando e dá uma string com o caminho.
