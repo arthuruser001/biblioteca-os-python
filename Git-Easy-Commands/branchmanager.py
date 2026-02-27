@@ -60,6 +60,18 @@ def ListRemoteBranches():
     print('Listando branches remotos...')
     os.system('git branch -r')
 
-
-        
+def RenameBranch():
+    newname = str(input('Digite o novo nome da branch atual: '))
+    confirm = ''
+    while(confirm != 's' and confirm != 'n'):
+        confirm = str(input('Você tem certeza que deseja renomear a branch atual para {}? (y ou n)'.format(newname)))
+        if(confirm == 's'):
+            print('Renomeando branch...')
+            os.system('git branch -m {}'.format(newname))
+            print('Branch renomeado (Por enquanto não temos verificação de erro).')
+        elif(confirm == 'n'):
+            print('Fechando aplicação...')
+            exit()
+        else:
+            print('Valor de confirmação inválido, por favor digite s ou n.')
 

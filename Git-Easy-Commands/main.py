@@ -11,6 +11,7 @@ if (codigo_input == '1'):
     print('Digite 4 para listar as branches. (Dentro do Dispositivo)')
     print('Digite 5 para listar as branches. (Somente as branches remotas)')
     print('Digite 6 para listar as branches. (Todas as branches)')
+    print('Digite 7 para renomear a branch atual.')
     opcao = input('Escolha uma opção: ')
     if (opcao == '1'):
         branchmanager.NewBranch()
@@ -24,6 +25,8 @@ if (codigo_input == '1'):
         branchmanager.ListRemoteBranches()
     elif (opcao == '6'):
         branchmanager.ListAllBranches()
+    elif (opcao == '7'):
+        branchmanager.RenameBranch()
     else:
         print('Opção inválida!')
 
